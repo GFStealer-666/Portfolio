@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(220, 255, 255);
+    
+}
+
+body h1{
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Gamja Flower";
+}
+
+body p {
+    text-align: center;
+    font-family: "Indie Flower";
+    font-size: 150%;
+}
+
+body a {
+    text-align: center;
+    font-family: "Indie Flower";
+    font-size: 150%;
+}
+
+.reference-container{
+    text-align: center;
+    margin: 3%;
+    width: 25%;
+    border-style:outset;
+    border-color: black;
+    border: 5%;
+    display: inline-block;
+}
+
+.reference-container a :hover{
+    opacity: 40%;
+}
+
+.ref-box{
+    margin: 3%;
+}
+
+.back{
+    padding: 1% auto;
+}
+

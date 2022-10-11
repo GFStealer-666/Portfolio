@@ -1,0 +1,27 @@
+var postCounter = 0;
+
+
+function postFunction(){
+    var textString = document.getElementById("text1").value;
+    
+    alert(textString);
+    postCounter ++;
+    // alert(textString);
+    if(postCounter == 1){
+       firstpostFunction(); 
+       
+    }
+
+}
+
+function firstpostFunction (){
+    alert(textString);
+    var firstText = document.getElementById("first-post").textContent;
+    alert(firstText);
+    firstText.innerHTML = textString;
+}
+
+function clearFunction(){
+    postCounter = 0;
+
+}

@@ -1,0 +1,550 @@
+/* EVERYTHING IN PAGE */
+body{
+    margin :  0;
+    padding : 0;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+ul{
+    padding : 0px;
+}
+
+/* TOP SECTION */
+
+.top-section{   
+    background-color: rgb(203, 255, 255);
+    text-align: right;
+    position: relative;
+    padding-bottom: 0.1%;
+}
+
+.top-seciton-ul{
+    top : 15%;
+    right : 5%;
+    margin-top: 0;
+    padding : 5% 5% 3%;
+}
+
+.top-section-topic{
+    padding-right: 2%;    
+    color :rgb(34, 207, 255);
+    font-family:'Gamja Flower';
+    font-size : 180%;
+    margin : 0px 20px 0 20px;
+    text-decoration: none;
+    
+}
+
+.top-section-topic:hover{
+    color :rgb(12, 74, 91);
+
+}
+
+.top-profile-image{
+    position : absolute;
+    left : 5%;
+    width : 7%;
+    top : 20%;
+}
+
+/* TOP CONTAINER */
+
+.top-container{    
+    position : relative;
+    background-color: rgb(203, 255, 255);   
+    z-index: 2;
+}
+
+.tittle-text{
+    z-index: 1;
+    line-height: 2;
+    margin : auto;
+    padding-top : 3%;
+    text-align: center;
+    width: 16%;
+    font-family:'Gamja Flower';
+    font-size : 400%;
+    color :rgb(34, 207, 255);
+    
+}
+
+.introduce-text{
+    position: relative;
+    text-align: center;
+    font-family: 'Indie Flower';
+    font-size: 250%;
+    color :rgb(34, 207, 255);
+    padding-top : 2%;
+    padding-bottom : 10%;
+    margin :0;
+}
+
+.underline-text{
+    text-decoration-line: underline;
+}
+
+/* FIRST CONTAINER */
+
+.first-container{ 
+    position : relative;
+    background-color: rgb(190, 255, 255);
+}
+
+.first-container p , .first-container h3{
+    margin : 0;
+    font-family: 'Indie Flower';    
+    line-height: 2;
+}
+.first-container-tittle{    
+    padding : 5% 0 0 0;
+    margin : 0;
+   
+    font-family: 'Indie Flower';
+    font-weight: bolder;
+    font-size: 300%;
+
+    text-decoration: underline; 
+    text-align: center;
+
+    color :rgb(54, 129, 129);
+    opacity: 80%;
+}
+.autobiography h3{
+    font-family: 'Indie Flower';
+    font-size: 200%;
+}
+
+.auto-biography-rows{
+    background-color: rgb(190, 255, 255);
+    color : rgb(50, 92, 92);
+    display: block;
+    margin: 0% auto 0% auto;
+    padding: 7% 5% 8% 5%;
+    width: 80%;
+    text-align: left;
+}
+
+.bio-hr-second{
+    border-style: dotted none none;
+    border-color: #39a6a3;
+    border-width: 10px;
+    width: 60%;
+    margin: 5% auto 5% auto;
+    background-color: rgb(190, 255, 255);
+}
+
+.bio-hr{
+    border-style: dotted none none;
+    border-color: #39a6a3;
+    border-width: 10px;
+    width: 60%;
+    margin: 5% auto 0% auto;
+    
+}
+
+.bio-hr-third{
+    border-style: dotted none none;
+    border-color: #39a6a3;
+    border-width: 10px;
+    width: 60%;
+    margin: 5% auto 0% auto;
+    padding-bottom: 10%;
+}
+
+.second-rows{
+    padding-top : 0%;
+}
+
+.bio-head{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.bio-pfp{
+    float: left;
+    width: 35%;
+    margin-right : 10%;
+}
+
+.pi-topic{
+    text-align: left;
+}
+
+.auto-biography-rows p {  
+    font-family: 'Indie Flower';
+    font-weight: bold;    
+    line-height: 2;
+    font-size: 200%;
+}
+
+
+
+/* PERSONAL INFORMATION */
+
+
+.bio-head{
+    font-weight: bold;
+}
+
+
+
+/* SKILL-CONTAINER */
+
+.skill-container{
+    background-color: rgb(203, 255, 255);
+    font-family: 'Indie Flower';
+    padding : 5% 10%;
+}
+
+.skill-bar-container{
+    margin : 10% auto;
+}
+.skill-container h1 {
+    color :rgb(50, 92, 92);
+    font-family:'Indie Flower';
+    opacity: 80%;
+    font-weight: bolder;
+    text-decoration: underline; 
+    font-size: 300%;
+}
+
+
+.skill-topic{
+    font-size : 200%;
+    font-weight: bold;
+}
+
+.fontend-skill-bar{
+    font-size : 100%;
+    width: 30%;
+}
+
+.backend-skill-bar{
+    font-size: 100%;
+    width: 40%;
+}
+
+.csharp-skill-bar{
+    font-size: 100%;
+    width: 60%;
+}
+
+.arduino-skill-bar{
+    font-size: 100%;
+    width: 50%;
+}
+
+.python-skill-bar{
+    font-size: 100%;
+    width: 20%;
+}
+.skill-bar-decorate{
+    padding: 0.8% 5%;
+
+}
+
+.skill-bar-round{
+    border-radius: 20px;
+}
+.percent-text{
+    font-family: 'Gamja Flower';  
+    color : black;
+    font-weight: bold;
+}
+
+.skill-color-bar{
+    border-style: ridge;
+    border-color: black;
+    background-color: #e9ffff;    
+}
+
+.skill-color-bar-fill{
+    background-color: rgb(115, 255, 255);  
+}
+
+/* HOBBY CONTAINER */
+
+.hobby-container{
+    background-color: #b8ffff;
+    font-family: 'Indie Flower';
+    padding : 5% 10%;
+    
+}
+
+.hobby-topic{
+   color: rgb(255, 0, 0);
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.hobby-container h1{
+    color :rgb(50, 92, 92);
+    text-decoration: underline;
+    font-family:'Indie Flower';
+    font-size: 300%;
+    text-align: center;
+}
+
+.hobby-container h4{
+    margin : 5% auto;
+    font-family:'Indie Flower';
+    font-size: 200%;
+
+}
+
+
+.hobby-container p{
+    font-family:'Indie Flower';
+    font-size: 150%;
+
+}
+
+.hobby-container img{
+    width: 20%;
+}
+
+.sport-team{
+    margin: 5% 2%;
+    padding : 2%;
+    width: 40%;
+    display: inline-block;
+    border-color: black;
+    border-style: ridge;
+}
+
+
+.hobby-stuff{
+    margin : 8% 5%;
+    border-color: black;
+    border-style: ridge;
+    text-align: center;
+    color : black;
+    background-color: rgb(211, 255, 248);
+}
+
+
+.invoker-vid{
+    margin-bottom: 5%;
+}
+
+
+/* PROJECT-CONTAINER */
+
+.project-container{
+    background-color: rgb(225, 255, 255);
+    font-family: 'Indie Flower';
+    padding : 8% 20%;
+
+}
+
+.project-container h1{
+    color :rgb(50, 92, 92);
+    text-decoration: underline;
+    font-family:'Indie Flower';
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.project-radius{
+    border: 10px;
+    border-style: ridge;
+    
+}
+
+.project-ul{
+    list-style: none;
+    font-size: 200%;
+    text-align: center;
+}
+
+.project-l{
+    margin: 5% auto 5% auto;
+    
+}
+
+.project-l:hover{
+    opacity: 50%;
+
+}
+
+.project-hr{
+    border-style: dotted none none;
+    border-color: #39a6a3;
+    border-width: 10px;
+    width: 60%;
+    margin: 0% auto 0% auto;
+    
+}
+
+.project-hr1{
+    border-style: dotted none none;
+    border-color: #39a6a3;
+    border-width: 10px;
+    width: 60%;
+    margin: 5% auto 5% auto;
+    
+}
+
+/* FOOTER */
+.end-contact-icon {
+    margin: 20px 5%;
+    font-size: 200%;
+}
+.end-contact-icon:hover{
+    opacity: 30%;
+}
+.white-section{
+    background-color: rgb(219, 249, 255);
+    padding : 2%;
+}
+
+.container-fluid {
+    text-align: center;
+    padding: 3% 15% 5%;
+}
+
+.end-text{
+    font-family:'Indie Flower';
+    font-size: 200%;
+}
+
+/* CLOUD */
+
+.cloud{
+    z-index: 2;
+    max-width: 15%;
+    position: absolute;
+}
+
+.cloud:hover{
+    opacity: 0.6;
+}
+
+.first-cloud{
+    top : 15%;
+    left :10%;
+}
+
+.second-cloud{
+    right : 10%;
+    top : 10%;
+}   
+
+.third-cloud{
+    right : 45%;
+
+}
+
+/* BIRD */
+
+.bird{
+    position : absolute;
+    width: 10%;
+    
+}
+
+.first-bird{
+    left : 38%;
+    top :8%;
+}
+
+/* MOUNTAIN */
+
+.mountain{
+    width :100%;
+    padding-bottom: 0%;
+    position :fixed; 
+    z-index: -10;
+
+}
+
+.mountain-container{
+    position: relative;
+    bottom: 0;
+}
+
+#mountain-btn{
+    cursor: pointer;
+    position : fixed;
+    right : 1%;
+    bottom : 25%;
+    z-index: 10;
+    background-color: transparent;
+    border: 0;
+}
+
+.image-styling{
+    width: 50%;
+}
+
+@media (max-width: 400px) {
+    body p{
+        font-size: 125%;
+    }
+
+    .first-container p {
+        font-size: 100%;
+    }
+
+    .first-container h2{
+        font-size: 160%;
+    }
+
+    .project-container h1{
+        color :rgb(50, 92, 92);
+        text-decoration: underline;
+        font-family:'Indie Flower';
+        font-size: 150%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .skill-container h1{
+        font-size: 125%;
+    }
+
+    .skill-topic{
+        font-size: 100%;
+    }
+
+    .hobby-container h1{
+        font-size: 150%;
+    }
+
+    .project-container a{
+        font-size: 100%;
+    }
+
+    .hobby-container p {
+        font-size: 100%;
+    }
+
+    .tittle-text{
+        font-size: 150%;
+    }
+
+    .introduce-text {
+        font-size: 150%;
+    }
+
+    .top-section-topic {
+        font-size : 100%;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .mountain {
+        position: absolute;
+    }
+
+    #mountain-btn{
+        display: none;
+    }
+}
+

@@ -1,0 +1,344 @@
+/* HTML SETTING */
+
+body{
+    
+    background-color: rgb(236, 226, 226);
+    margin : 0;
+}   
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 2;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* TOP CONTAINER */
+.top-container{
+    padding: 30px 0 15px;
+    position : relative;
+    background: linear-gradient(180deg, rgba(236,226,226,1) 43%, rgba(254,255,255,1) 100%);
+}
+
+
+.tittle-text{
+    position : absolute;
+    top : 30%;
+    right: 6%;
+    font-size: 200%;
+    font-family: "Montserrat";
+    color : rgb(97, 94, 94);
+}
+
+.tittle-text:hover{
+    cursor: grab;
+    opacity: 0.6;
+}
+
+.ramsey-img{
+    position :inherit;
+    padding-left: 30px;
+    max-width : 10%;
+}
+/* FIRST CONTAINER */
+
+.first-container{
+    background: linear-gradient(360deg, rgba(236,226,226,1) 43%, rgba(254,255,255,1) 100%);
+    position : relative;    
+    padding-top : 50px;
+}
+
+.first-text-container{
+    position: inherit;
+    z-index: 3;
+    padding-top : 50px;
+    padding-left : 50px;    
+
+}
+
+.tittle-apple{
+    color: rgb(255, 0, 0);
+}
+
+.cinamon-tittle-pic{
+    position : absolute;
+    right : 160px;
+    top : 100px;
+    height : 60%;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+
+#tittle-text{
+    position : inherit;
+    margin-top : 50px;
+    font-size : 8rem;
+    font-family: 'Gamja Flower', cursive;
+    
+}
+
+.tittle-second-line{
+    font-size: 5rem;
+    width : 100%;
+
+}
+
+/* SECOND CONTAINER */
+
+.second-container{
+    text-align: justify;
+    position: relative;
+    margin-top : 100px;
+}
+
+.ingredients-text{
+    position: relative;
+    margin-left: 1%;
+    font-size :5rem;
+    font-family: 'Gamja Flower';
+    text-align: center;
+}
+
+.first-ingredients{
+    text-align: right;
+}
+
+.all-ingredients-text{
+    margin-left: 100px;
+    font-family: 'Indie Flower', cursive;
+    padding : 0px 150px 0px 200px;
+    font-size : 34px;   
+    margin: 0 auto;
+}
+
+.ingredients-description{
+    font-size :24px;
+
+}
+
+.buy-apple{
+    text-decoration: none;
+}
+
+.buy-apple:link{
+    color : black;
+    background-color: transparent;
+}
+.buy-apple:hover{
+    opacity: 0.8;
+}
+
+.ingredient-pic-crop{
+    float: left;
+    border-radius: 3px;
+    width: 30%;
+    height: 30%;
+    shape-outside: circle();
+    padding-right: 80px;
+    margin-left: 50px;
+}
+
+/* THIRD CONTAINER */
+
+.third-container{
+    margin-top: 100px;
+}
+.instruction{
+    font-size : 2.5rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+
+}
+
+.instruction-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
+
+.instruction-img-left{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.instruction-img-right{
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    padding-left: 10%;
+}
+
+.instruction-container{
+    width: 50%;
+    margin: 50px auto 150px auto;
+    text-align: left;
+}
+
+#special-container{
+    padding-bottom: 80px;
+}
+
+
+.first-instruction-text{
+    text-align: center;
+}
+
+.footer{
+    text-align: center ;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+/* SCREEN SECTION */ 
+
+@media (max-width: 1028px) {
+
+.ramsey-img{
+    max-width: 15%;
+}
+
+.tittle-text{
+    font-size: 150%;
+    
+}
+
+.tittle-apple{
+    color: rgb(255, 0, 0);
+}
+
+.cinamon-tittle-pic{
+    position : absolute;
+    right : 10%;
+    top : 10%;
+    height : 70%;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+.ingredients-text{
+    font-size: 3.5rem;
+}
+
+
+#tittle-text{
+    position : inherit;
+    margin-top : 50px;
+    font-size : 4rem;
+    font-family: 'Gamja Flower', cursive;
+    
+}
+
+.tittle-second-line{
+    font-size: 3rem;
+    width : 100%;
+
+}
+
+.all-ingredients-text{
+    padding: 5% 15% 0px 15%;
+    font-size: 25px;
+}
+
+.instruction-container {
+    width: 70%;
+    margin: 20% auto 10% auto;
+
+}
+
+.instruction-img-right {
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+/* PHONE SECTION */
+
+@media (max-width: 550px){
+    .ramsey-img{
+        max-width: 15%;
+    }
+    
+    .tittle-text{
+        font-size: 100%;
+        
+    }
+    
+    
+    .cinamon-tittle-pic{
+        right : 10%;
+        top : 10%;
+        height : 60%;
+
+    }
+    
+    .ingredients-text{
+        font-size: 2rem;
+    }
+    
+    
+    #tittle-text{
+        position : inherit;
+        margin-top : 50px;
+        font-size : 2.5rem;
+        font-family: 'Gamja Flower', cursive;
+        
+    }
+    
+    .tittle-second-line{
+        font-size: 2rem;
+        width : 100%;
+    
+    }
+    
+    .all-ingredients-text{
+        padding: 5% 10% 0px 10%;
+        font-size: 110%;
+    }
+    
+    .ingredients-description{
+        font-size: 90%;
+    }
+    
+    .instruction-container {
+        width: 70%;
+        margin: 1% auto 10% auto;
+    
+        
+    }
+
+    .instruction{
+        font-size: 2rem;
+    }
+    
+   .instruction-img-right {
+        width: 30%;
+        float: right;
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+
+    .instruction-img{
+        padding-bottom: 10%;
+    }
+
+    .first-instruction-text{
+        font-size: 120%;
+    }
+    
+    
+}
+}
